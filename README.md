@@ -16,7 +16,7 @@ File upload vulnerability exists in background article publishing
 # Summarize
 A vulnerability has been discovered in php-basic-cms that is classified as serious. If the uploaded files are not strictly verified and filtered, malicious script files may be uploaded to take over the entire website or even the server.
 
-# Recurrence
+# Vulnerability exploitation
 There is an add article screen in /admin background. The file type is not verified when the image file is uploaded.
 Construct the webshel file 1.php. After uploading, the path of webshell is /img/1.php
 ![Image](https://user-images.githubusercontent.com/76898521/227779168-322a4800-906b-4713-a5c2-3c1ee4f148fa.png)
